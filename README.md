@@ -1,6 +1,6 @@
 ﻿# Verint.Microsoft.Speech
 
-NuGet package for the Microsoft.Speech managed code class library for x64 runtimes. Install with:
+[NuGet package](https://www.nuget.org/packages/verint.microsoft.speech.x64) for the Microsoft.Speech managed code class library for x64 runtimes. Install with:
 
 ```
 Install-Package Verint.Microsoft.Speech
