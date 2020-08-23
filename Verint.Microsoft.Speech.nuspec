@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Verint.Microsoft.Speech.x64</id>
+	<title>Microsoft Speech Platform Server SDK (x64)</title>
+    <version>11.0.7400.345</version>
+    <authors>ladenedge</authors>
+    <owners>ladenedge</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">Microsoft Speech Platform SDK 11 License.txt</license>
+    <projectUrl>https://github.com/ladenedge/Verint.Microsoft.Speech</projectUrl>
+    <description>Microsoft.Speech managed code class library for x64 runtimes.
+
+To use this package, you must have the Microsoft Speech SDK installed. This package includes three Microsoft.Speech library versions, all for x64 runtimes:
+
+* For .NET Framework targets, the official, signed libraries from the SDK.
+* For .NET Standard 1.0-2.0 targets, a recompiled (unsigned) .NET Framework version with one slight edit to allow for .NET Standard compatibility.
+* For .NET Standard 2.1+ targets, a recompiled (unsigned) .NET Standard version with very slight edits to allow for real compatibility without any warnings.
+
+See Github for details about the edits. Note that while we have tested the speech recognition portion of the library under .NET Core, it's impossible to say that it is 100% compatible. Caveat emptor!</description>
+    <copyright>Copyright 2011 Microsoft Corporation</copyright>
+    <tags>speech tts recognition</tags>
+	<dependencies>
+	  <group targetFramework="net20" />
+	  <group targetFramework="netstandard1.0" />
+	  <group targetFramework="netstandard2.1">
+	    <dependency id="Microsoft.Win32.Registry" version="4.0.0" />
+	  </group>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="Microsoft Speech Platform SDK 11 License.txt" />
+    <file src="Microsoft Speech Platform SDK 11 License.rtf" />
+    <file src="Microsoft Speech Platform SDK 11 Release Notes.rtf" />
+    <file src="lib/**" />
+</files>
+</package>
