@@ -3,7 +3,7 @@
   <metadata>
     <id>Verint.Microsoft.Speech.x64</id>
 	<title>Microsoft Speech Platform Server SDK (x64)</title>
-    <version>11.0.7400.345</version>
+    <version>11.0.7400.346</version>
     <authors>ladenedge</authors>
     <owners>ladenedge</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,6 +18,7 @@ To use this package, you must have the Microsoft Speech SDK installed. This pack
 * For .NET Standard 2.1+ targets, a recompiled (unsigned) .NET Standard version with very slight edits to allow for real compatibility without any warnings.
 
 See Github for details about the edits. Note that while we have tested the speech recognition portion of the library under .NET Core, it's impossible to say that it is 100% compatible. Caveat emptor!</description>
+    <releaseNotes>* Added missing English and non-English string tables.</releaseNotes>
     <copyright>Copyright 2011 Microsoft Corporation</copyright>
     <tags>speech tts recognition</tags>
 	<dependencies>
